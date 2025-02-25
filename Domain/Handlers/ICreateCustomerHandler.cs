@@ -6,6 +6,6 @@ namespace Shop.Domain.Handlers
 {
     public interface ICreateCustomerHandler
     {
-        CreateCustumerResponse Handle(CreateCustumerRequest request);
+        CreateCustomerResponse Handle(CreateCustomerRequest request);
     }
 }
