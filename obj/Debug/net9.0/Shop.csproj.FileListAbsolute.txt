@@ -1,0 +1,8 @@
+C:\Users\marce\Desktop\Shop\obj\Debug\net9.0\Shop.csproj.AssemblyReference.cache
+C:\Users\marce\Desktop\Shop\obj\Debug\net9.0\Shop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\Desktop\Shop\obj\Debug\net9.0\Shop.AssemblyInfoInputs.cache
+C:\Users\marce\Desktop\Shop\obj\Debug\net9.0\Shop.AssemblyInfo.cs
+C:\Users\marce\Desktop\Shop\obj\Debug\net9.0\Shop.csproj.CoreCompileInputs.cache
+C:\Users\marce\Desktop\Shop\obj\Debug\net9.0\Shop.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\marce\Desktop\Shop\obj\Debug\net9.0\Shop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marce\Desktop\Shop\obj\Debug\net9.0\Shop.sourcelink.json
