@@ -1,3 +1,6 @@
+using MediatR;
+using Shop.Domain.Commands.Responses;
+
 namespace Shop.Domain.Commands.Requests{
     public class CreateCustomerRequest : IRequest<CreateCustomerResponse>
     {

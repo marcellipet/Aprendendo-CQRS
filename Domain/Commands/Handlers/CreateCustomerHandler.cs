@@ -1,8 +1,6 @@
 using MediatR;
 using Shop.Domain.Commands.Requests;
 using Shop.Domain.Commands.Responses;
-using Shop.Domain.Handlers;
-using System;
 
 namespace Shop.Domain.Commands.Handlers 
 {
