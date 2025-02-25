@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "iDsiqXNViTQ=",
+  "dgSpecHash": "97QLaheM/cU=",
   "success": true,
   "projectFilePath": "C:\\Users\\marce\\Desktop\\Shop\\Shop.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\marce\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
   ],
   "logs": []

@@ -6,7 +6,7 @@ using System;
 
 namespace Shop.Domain.Commands.Handlers 
 {
-    public class CreateCustomerHandler : ICreateCustomerHandler
+    public class CreateCustomerHandler : IRequestHandler<CreateCustomerRequest, CreateCustomerResponse>
     {
         public CreateCustomerResponse Handle(CreateCustomerRequest request){
             //Verifica se o cliente já está cadastrado 
