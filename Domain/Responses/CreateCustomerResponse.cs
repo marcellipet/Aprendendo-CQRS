@@ -1,4 +1,4 @@
-namespace Shop.Domain.Commands.Requests{
+namespace Shop.Domain.Commands.Responses{
     public class CreateCustumerResponse{
         public Guid Id { get; set; }
         public string Name { get; set; }
