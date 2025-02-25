@@ -1,8 +1,8 @@
+using MediatR;
 using Shop.Domain.Commands.Requests;
 using Shop.Domain.Commands.Responses;
 using Shop.Domain.Handlers;
 using System;
-
 
 namespace Shop.Domain.Commands.Handlers 
 {
@@ -19,6 +19,11 @@ namespace Shop.Domain.Commands.Handlers
                 Email = "marcellipetranel@gmail.com",
                 Date = DateTime.Now 
             };
+        }
+
+        public Task<CreateCustomerResponse> Handle(CreateCustomerRequest request, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
         }
     }
 }

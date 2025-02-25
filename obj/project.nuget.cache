@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "97QLaheM/cU=",
+  "dgSpecHash": "Oa7Awn6bhFU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\marce\\Desktop\\Shop\\Shop.csproj",
+  "projectFilePath": "C:\\Users\\marce\\Desktop\\Aprendendo-CQRS\\Shop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marce\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

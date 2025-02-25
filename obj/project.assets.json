@@ -191,11 +191,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marce\\Desktop\\Shop\\Shop.csproj",
+      "projectUniqueName": "C:\\Users\\marce\\Desktop\\Aprendendo-CQRS\\Shop.csproj",
       "projectName": "Shop",
-      "projectPath": "C:\\Users\\marce\\Desktop\\Shop\\Shop.csproj",
+      "projectPath": "C:\\Users\\marce\\Desktop\\Aprendendo-CQRS\\Shop.csproj",
       "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marce\\Desktop\\Shop\\obj\\",
+      "outputPath": "C:\\Users\\marce\\Desktop\\Aprendendo-CQRS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
