@@ -32,6 +32,19 @@
           }
         }
       },
+      "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "[11.0.0, 12.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -114,6 +127,19 @@
         "mediatr.contracts.nuspec"
       ]
     },
+    "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
+      "sha512": "RW3etRuy6Xp63cgqfC0r/ITOtUT0f9ymJl1+1XZdzsYUsfv7WBPC2kXGOP8IYpY/6c4Q6805vbIW/88DopUs3w==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/11.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.OpenApi/9.0.0": {
       "sha512": "FqUK5j1EOPNuFT7IafltZQ3cakqhSwVzH5ZW1MhZDe4pPXs9sJ2M5jom1Omsu+mwF2tNKKlRAzLRHQTZzbd+6Q==",
       "type": "package",
@@ -181,6 +207,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "MediatR >= 12.4.1",
+      "MediatR.Extensions.microsoft.DependencyInjection >= 11.1.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.0"
     ]
   },
@@ -239,6 +266,10 @@
             "target": "Package",
             "version": "[12.4.1, )"
           },
+          "MediatR.Extensions.microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.1.0, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[9.0.0, )"
@@ -266,5 +297,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Versão detectada do pacote fora da restrição de dependência: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requer MediatR (>= 11.0.0 && < 12.0.0), mas a versão MediatR 12.4.1 foi resolvida.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

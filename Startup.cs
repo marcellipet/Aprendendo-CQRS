@@ -1,3 +1,5 @@
+using System.Reflection;
+using MediatR;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -5,7 +7,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Shop.Domain.Commands.Handlers;
-using Shop.Domain.Handlers;
 
 namespace Shop
 {
@@ -21,7 +22,7 @@ namespace Shop
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddTransient<ICreateCustomerHandler, CreateCustomerHandler>();
+            services.AddMediatR(Assembly.GetExecutingAssembly());
 
         }
     
